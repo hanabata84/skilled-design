@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skilled-design/static/css/main.23b6b968.css",
+    "main.js": "/skilled-design/static/js/main.d97bb08c.js",
+    "static/media/hero-img.png": "/skilled-design/static/media/hero-img.89d9cb8684c091649564.png",
+    "static/media/hero-img-sm.png": "/skilled-design/static/media/hero-img-sm.956d7a216e3dcac0283a.png",
+    "index.html": "/skilled-design/index.html",
+    "main.23b6b968.css.map": "/skilled-design/static/css/main.23b6b968.css.map",
+    "main.d97bb08c.js.map": "/skilled-design/static/js/main.d97bb08c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23b6b968.css",
+    "static/js/main.d97bb08c.js"
+  ]
+}
