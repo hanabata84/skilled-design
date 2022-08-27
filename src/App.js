@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Cards from "./components/Cards";
+import Footer from "./components/Footer";
+import heroImg from './assets/hero-img.png'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="h-full bg-gradient-to-b from-white to-[#EFF1FE] flex flex-col items-center">
+        <div className="xl:w-[1112px] md:w-[849px] w-[388px]">
+          <img className='hidden md:block absolute top-0 xl:right-[-250px] md:right-[-340px] 2xl:right-[-10px]' src={heroImg} alt="/" />
+          <Navbar />
+          <Hero />
+          <Cards />
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }
